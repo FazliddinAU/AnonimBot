@@ -1,0 +1,23 @@
+{
+  "name": "anonimbot",
+  "version": "1.0.0",
+  "description": "telegram bot",
+  "homepage": "https://github.com/FazliddinAU/AnonimBot#readme",
+  "bugs": {
+    "url": "https://github.com/FazliddinAU/AnonimBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FazliddinAU/AnonimBot.git"
+  },
+  "license": "ISC",
+  "author": "FAZLIDDINAU",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
