@@ -31,7 +31,7 @@ module.exports = (bot, Users) => {
         const users = await Users.read();
 
         if (data === "show_users") {
-            let userList = users.map(u => `👤 ${u.name} (@${u.username}) - ID: ${u.id}`).join('\n\n');
+            let userList = users.map(u => `👤 ${u.name} (@${u.username}) - ID: ${u.id}\nTelefon raqami : ${u.phone}`).join('\n\n');
             bot.sendMessage(chatId, userList || "❗️Foydalanuvchilar topilmadi.");
         }
 
